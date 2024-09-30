@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilderness Festival</title>
+ 
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Join Wilderness Festival 2025, an unforgettable four day party. Immerse yourself in the arts, music and the outdoors. Get tickets now!">
+    <meta name="keywords"
+        content="Wilderness Festival, music festival, camping, swimming, 2024 festival, festival tickets, indie, pop music, Oxfordshire festival">
+    <meta name="author" content="Wilderness Festival">
+    <meta name="robots" content="index, follow">
+ 
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:title" content="Wilderness Festival 2025 - Official Website">
+    <meta property="og:description"
+        content="Join Wilderness 2024, an unforgettable four day party. Immerse yourself in the arts, music and the outdoors. Get tickets now!">
+    <meta property="og:image" content="https://www.tomorrowland.com/assets/images/tomorrowland-2024-banner.jpg">
+    <meta property="og:url" content="https://www.wildernessfestival.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Wilderness Official">
+    <meta property="og:locale" content="en_US">
+ 
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wilderness Festival 2024 - Official Website">
+    <meta name="twitter:description"
+        content="Join Wilderness 2024, an unforgettable four day party. Immerse yourself in the arts, music and the outdoors. Get tickets now!">
+    <meta name="twitter:image" content="https://www.tomorrowland.com/assets/images/tomorrowland-2024-banner.jpg">
+    <meta name="twitter:site" content="@Wilderness">
+    <meta name="twitter:creator" content="@Wilderness">
+ 
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <!-- Navigation Bar -->
+     <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/icon-removebg.webp" alt="Wilderness Festival logo" height="58">
+            </div>
+            <div class="menu">
+                <a href="#hero">Home</a>
+                <a href="#section1">About</a>
+                <a href="#section2">Explore</a>
+                <a href="#section4">Info</a>
+                <a href="#section4">Contact</a>
+            </div>
+            <div class="burger-menu" onclick="toggleMenu()">&#9776;</div>
+
+
+        </nav>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#hero" onclick="closeMenu()">Home</a>
+            <a href="#section1" onclick="closeMenu()">About</a>
+            <a href="#section2" onclick="closeMenu()">Explore</a>
+            <a href="#section4" onclick="closeMenu()">Info</a>
+            <a href="#section4" onclick="closeMenu()">Contact</a>
+        </div>
+     </header>
+
+    <!-- Hero Section  -->
+
+    <section id="hero">
+        <img src="images/jessie-ware.webp" alt="Hero Image" class="hero-image">
+        <div class="hero-text">
+            <h1>Wilderness Festival 2025</h1>
+            <div class="hero-heading2"><h3>31st July - 3rd August 2025</h3></div>
+
+            <button class="cta-button">Buy Tickets</button>
+        </div>
+    </section>
+
+    <!-- Section with Anchor links -->
+     <section id="section1">
+        <div class="section1-heading">
+            <h2>Step into the Wilderness</h2>
+        </div>
+        
+        <div class="section1-text">           
+            <p>Join us for an unforgettable weekend of exploration, freedom and adventure. Nestled in the heart of breathtaking Cornbury Park, Wilderness invites you to immerse yourself in a world of creative expression, dazzling entertainment and captivating performances. Escape into nature, go wild swimming in the lake or soak in a hot-tub under the stars.  </p>
+            <p>Every moment has been designed with you in mind. Join us for a weekend that can be as relaxing or as wild as you desire. </p></div>
+        
+        
+
+     <!-- START OF CAROUSEL  -->
+     <div class="carousel-container"></div>
+     <!-- Image slides  -->
+      <div class="carousel-slide">
+        <img src="./images/carousel-bubbles-stage.webp" alt="Image 1">
+        <img src="./images/carousel-father-and-child.webp" alt="Image 2">
+        <img src="./images/carousel-jump-in.webp" alt="Image 3">
+      </div>
+
+        <!-- Left and right arrows -->
+        <div class="carousel-navigation">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+ 
+        <!-- Bullet points indicators -->
+         <div class="carousel-bullets">
+            <span class="bullet"></span>
+            <span class="bullet"></span>
+            <span class="bullet"></span>
+         </div>
+    </div>
+ 
+    <!-- External JS file for the carousel -->
+     <script src="./script-carousel.js"></script>
+    <!-- __END OF CAROUSEL__ -->
+    </section>
+
+     <section id="section2">
+        <div class="section2-heading"><h1>Explore</h1></div>
+        <!-- Cards -->
+        <div class="web-cards">
+           <!-- Card  -->
+            <div class="card small-card"> <img src="./images/Accomodation-tents2.webp" alt="Luxury Tents at Wilderness Festival">
+            
+            <div class="info">
+                <div class="info-heading"><h3>Accommodation</h3></div>
+                <p>Whether you are looking for the ease of a pre-pitched tent, our dedicated family camping area, or our range of boutique accommodation options for something more luxurious, discover your perfect home for the weekend.  </p>
+                <button type="button" class="cta-button"  onclick="alert ('card clicked')">Read more</button>
+            </div></div>
+
+            <!-- Card  -->
+            <div class="card large-card"> <img src="./images/dj-and-discoball.webp" alt="DJ playing to a crowd">
+            
+                <div class="info">
+                    <div class="info-heading"><h3>Line up</h3></div>
+                    <p>For thirteen years, we have been bringing the worlds’ greatest artists and DJs, speakers and comics together for a line up like no other. Whether you want belly laughs before dinner or to party into the night, 2025 is set to be the best yet.</p>
+                    <button type="button" class="cta-button"  onclick="alert ('card clicked')">Read more</button>
+                </div></div>
+
+           <!-- Card  -->
+            <div class="card small-card"> <img src="./images/cocktail-in-hottub.webp" alt="Luxury Tents at Wilderness Festival">
+            
+            <div class="info">
+                <div class="info-heading"><h3>Experiences</h3></div>
+                <p>With an abundance of experiences, you can truly make the weekend your own. From paddle-board-yoga and wild-swimming to poetry writing, forest banquets and cooking workshops with award-winning chefs... the choice is yours. </p>
+                <button type="button" class="cta-button"  onclick="alert ('card clicked')">Read more</button>
+            </div></div>
+
+           
+        </div>
+     </section>
+   
+     <section id="section3">
+        
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ECyoqpJ5Qp4?si=hLMbxbmI91qus0mP&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     </section>
+
+     <section id="section4">
+        <div class="section4-heading"> <h1>Everything you need to know...</h1></div> 
+        <div class="section4-heading2"> <h3>Early-bird tickets are already on sale so there is no better time to plan your escape. Here’s all the information you need.</h3>
+        </div>
+
+        <div class="section4-paragraph">
+            
+            <p><strong>Who we are:</strong> We are Wilderness Festival. Over a four day weekend we put on a spectacle, showcasing the finest talent there is in the worlds of the arts, music, comedy, dining, outdoors and wellness. But the magic cannot happen without you. Join us and curate your own Wilderness.         
+                              
+                </p>
+                <p><strong>When:</strong> 31st July – 3rd August 2025</p>
+                <p><strong>Where:</strong>  Nestled within the stunning grounds of Cornbury Park in Oxfordshire</p>
+                <p><strong>Ticket Price:</strong> £278 </p>
+                <p><strong>Still need help?</strong> Contact us at: info@wildernessfestival.com</p>
+            </div>
+
+                <button class="cta-button">Buy Tickets</button>     
+
+
+     </section>
+
+     
+     <!-- Footer -->
+      <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://www.facebook.com/wildernessfestival"> <img src="./images/icon-facebook.svg" alt="Facebook Logo" height="16"></a>
+                <a href="https://x.com/WildernessHQ/"><img src="./images/icon-twitter.svg" alt="Twitter Logo" height="16"></a>
+                <a href="https://www.instagram.com/wildernesshq/"><img src="./images/icon-instagram.svg" alt="Instagram Logo" height="16"></a>
+                <a href="https://www.tiktok.com/@wildernesshq"><img src="./images/icon-ti-removebg.webp" alt="TikTok Logo" height="16"></a>
+                <a href="https://in.pinterest.com/wildernesshq/"><img src="./images/icon-p-removebg.webp" alt="Pinterest Logo" height="16"></a>
+                <a href="https://www.youtube.com/@wildernessfestival"><img src="./images/icon-youtube2.webp" alt="Youtube Logo" height="16"></a>
+            </div>
+            <p>&copy; 2024 MAMA Festivals. All rights reserved.</p>
+        </div>
+      </footer>
+
+    <!-- Cookie Popup -->
+     <div id="cookie-popup" class="cookie-popup">
+        <p>This website uses cookies to ensure you get the best experience.
+            <a href="#">Learn More</a>
+        </p>
+
+        <button onclick="acceptCookies()">Accept</button>
+     </div>
+
+     <script src="./scripts.js"></script>
+
+</body>
+</html>
