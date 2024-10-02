@@ -175,13 +175,15 @@ section {
 
 .section1-heading {
   padding-top: 3%;
-  font-size: 2rem;
+  }
 
+.section1-heading h2 {
+    font-size: 2.5rem;
 }
 
-.section1-text {
+.section1-text p {
   padding: 3%;
-  
+  font-size: 2rem;
 }
 
 .section2-heading {
@@ -194,12 +196,13 @@ section {
   flex-direction: column;
   gap: var(--spacing-md);
   align-items: center;
+  flex-grow: 1;
+  flex-basis: 46%;
 }
  
 .card {
   background-color: var(--color-bg-nav);
-  padding: var(--spacing-md);
-  flex-basis: 100%;
+    flex-basis: 100%;
 
   width: 100%;
   max-width: 30rem;
@@ -273,9 +276,16 @@ iframe {
 }
 
 .section4-paragraph {
-  padding-bottom: 2%;
-  font-size: 1.5rem;
-  }
+  padding-bottom: 2%;}
+
+.section4-paragraph p strong {
+  font-size: 1.7rem;
+}
+
+.section4-paragraph p {
+  font-size: 1.7rem;
+}
+  
  
 /* Footer */
 footer {
@@ -390,7 +400,8 @@ footer {
   .menu {
     display: block;
   }
- 
+
+  
   .burger-menu {
     /* Hidden on tablet and desktop */
     display: none;
@@ -403,6 +414,7 @@ footer {
   .web-cards {
     /* Horizontal layout on larger screens */
     flex-direction: row;
+    flex: 1 21%;
   }
  
   .card {
