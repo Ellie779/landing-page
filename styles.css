@@ -242,6 +242,10 @@ section {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+.info-paragraph p{
+  font-size: 1.5rem;
+}
  
 .small-card {
   flex: 1;
